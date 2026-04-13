@@ -30,8 +30,13 @@ public class MenuController {
         return service.getMenu(catererId, category);
 
     }
-
     //GET /api/caterers/{catererId}/flash-menu
+    @GetMapping("/flash-menu")
+    public List<MenuItem> getFlashMenu(@PathVariable Long catererId) {
+        return service.getFlashMenu(catererId);
+    }
+
+    //POST /api/caterers/{catererId}/flash-menu
     //Body: {"menuItemIds": [1,2,5]}
     @PostMapping("/flash-menu")
     public String setFlashMenu(@PathVariable Long catererId,
