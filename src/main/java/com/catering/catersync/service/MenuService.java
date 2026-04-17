@@ -35,7 +35,7 @@ public class MenuService {
     }
 
     public List<MenuItem> getFlashMenu(Long catererId){
-        return repo.findByCatererAndFlashTrue(catererId);
+        return repo.findByCatererIdAndFlashTrue(catererId);
 
     }
 

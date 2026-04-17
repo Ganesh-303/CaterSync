@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
+
 public class CatererProfile {
     @Id
     private Long userId;
@@ -14,6 +15,34 @@ public class CatererProfile {
     private int minNoticeDays;
     private boolean flashEnabled;
     private boolean customEnabled;
+    private boolean available = true;
+
+    private double avgRating = 0.0;
+    private long ratingCount = 0;
+
+    public double getAvgRating() {
+        return avgRating;
+    }
+
+    public void setAvgRating(double avgRating) {
+        this.avgRating = avgRating;
+    }
+
+    public long getRatingCount() {
+        return ratingCount;
+    }
+
+    public void setRatingCount(long ratingCount) {
+        this.ratingCount = ratingCount;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
 
     public String getVegType() {
         return vegType;
