@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-//import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name = "booking")
@@ -26,7 +26,7 @@ public class Booking {
     private double totalPrice;
 
     @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL, orphanRemoval = true)
-//    @JsonManagedReference
+    @JsonManagedReference
     private List<BookingItem> items = new ArrayList<>();
 
     public void addItem(BookingItem item) {

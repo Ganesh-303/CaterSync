@@ -1,6 +1,6 @@
 package com.catering.catersync.entity;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 @Entity
@@ -14,7 +14,7 @@ public class BookingItem {
     //many items belong to one Booking
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "booking_id")
-    @JsonManagedReference
+    @JsonBackReference
     private Booking booking;
 
     private Long catererId;

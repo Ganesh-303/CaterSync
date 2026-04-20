@@ -1,10 +1,14 @@
 package com.catering.catersync.controller;
 
+import com.catering.catersync.dto.BookingResponse;
 import com.catering.catersync.dto.CustomBookingRequest;
 import com.catering.catersync.dto.FlashBookingRequest;
+import com.catering.catersync.dto.InventoryUsageRequest;
 import com.catering.catersync.entity.Booking;
 import com.catering.catersync.entity.BookingStatus;
+import com.catering.catersync.mapper.BookingMapper;
 import com.catering.catersync.service.BookingService;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -23,12 +27,26 @@ public class BookingController {
     }
 
     @PostMapping("/custom")
-    public Booking createCustom(@RequestBody CustomBookingRequest req){
-        return service.createCustomBooking(req);
+    public BookingResponse createCustom(@Valid @RequestBody CustomBookingRequest req){
+        Booking saved = service.createCustomBooking(req);
+        return BookingMapper.toDto(saved);
     }
 
     @GetMapping("/{id}")
     public Booking get (@PathVariable Long id){
         return service.getBooking(id);
+    }
+
+    @PutMapping("/{id}/cancel")
+    public BookingResponse cancel(@PathVariable Long id){
+        Booking b = service.cancelBooking(id);
+        return BookingMapper.toDto(b);
+    }
+
+    @PostMapping("/{id}/inventory-usage")
+    public String allocateInventory(@PathVariable Long id,
+                                    @Valid @RequestBody InventoryUsageRequest req){
+        service.allocateInventory(id, req.getInventoryItemId(), req.getQty());
+        return "Inventory allocated successfully for bookingId ="+id;
     }
 }
