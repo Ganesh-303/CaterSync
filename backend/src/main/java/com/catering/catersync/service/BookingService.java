@@ -38,7 +38,7 @@ public class BookingService {
         //#1 get flash menu items from caterer
         List<MenuItem> flashItems = menuRepo.findByCatererIdAndFlashTrue(req.getCatererId());
 
-        //#2 optinally filter based on vegtype
+        //#2 optinaly filter based on vegtype
         boolean wantVeg = "VEG".equalsIgnoreCase(req.getVegType());
         List<MenuItem> finalItems = flashItems.stream()
                 .filter(mi -> mi.isVeg() == wantVeg)
@@ -125,7 +125,7 @@ public class BookingService {
                         .orElseThrow(() -> new IllegalArgumentException("staff not found: " + a.getStaffId()));
                 s.setAvailable(true);
                 staffRepo.save(s);
-            };
+            }
             bookingStaffRepo.deleteByBookingId(bookingId);
 
             restoreInventoryForBooking(bookingId);
