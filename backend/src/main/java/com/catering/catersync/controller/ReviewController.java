@@ -20,7 +20,7 @@ public class ReviewController {
     public ReviewController(ReviewService service){
         this.service =service;
     }
-    @PostMapping
+    @PostMapping("/entity")
     public CatererReview submit(@RequestBody CatererReview review){
         return service.submitReview(review);
     }
