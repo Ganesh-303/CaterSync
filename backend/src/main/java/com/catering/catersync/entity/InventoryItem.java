@@ -10,6 +10,8 @@ public class InventoryItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private Long catererId;
+
     private String itemName;
     private int quantity;
 
@@ -31,5 +33,13 @@ public class InventoryItem {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public Long getCatererId() {
+        return catererId;
+    }
+
+    public void setCatererId(Long catererId) {
+        this.catererId = catererId;
     }
 }

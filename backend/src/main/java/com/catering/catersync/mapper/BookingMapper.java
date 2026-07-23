@@ -12,6 +12,7 @@ public class BookingMapper {
         r.setEventDate(b.getEventDate());
         r.setStatus(b.getStatus().name());
         r.setTotalPrice(b.getTotalPrice());
+        r.setGuestCount(b.getGuestCount());
 
         var itemDtos = b.getItems().stream().map(i ->{
             BookingItemResponse ir = new BookingItemResponse();

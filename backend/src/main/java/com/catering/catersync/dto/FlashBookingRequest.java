@@ -7,6 +7,7 @@ public class FlashBookingRequest {
     private Long catererId;
     private String vegType;
     private LocalDate eventDate;
+    private int guestCount;
 
     public LocalDate getEventDate() {
         return eventDate;
@@ -38,5 +39,13 @@ public class FlashBookingRequest {
 
     public void setUserId(Long userId) {
         this.userId = userId;
+    }
+
+    public int getGuestCount() {
+        return guestCount;
+    }
+
+    public void setGuestCount(int guestCount) {
+        this.guestCount = guestCount;
     }
 }

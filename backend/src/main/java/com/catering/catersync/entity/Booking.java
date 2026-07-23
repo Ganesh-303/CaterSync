@@ -24,8 +24,9 @@ public class Booking {
     private BookingStatus status;
 
     private double totalPrice;
+    private int guestCount = 50;
 
-    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @JsonManagedReference
     private List<BookingItem> items = new ArrayList<>();
 
@@ -83,5 +84,11 @@ public class Booking {
         return items;
     }
 
+    public int getGuestCount() {
+        return guestCount;
+    }
 
+    public void setGuestCount(int guestCount) {
+        this.guestCount = guestCount;
+    }
 }

@@ -7,6 +7,7 @@ public class CustomBookingRequest {
     private Long userId;
     private LocalDate eventDate;
     private List<CatererSelection> selections;
+    private int guestCount;
 
     public Long getUserId() {
         return userId;
@@ -30,5 +31,13 @@ public class CustomBookingRequest {
 
     public void setSelections(List<CatererSelection> selections) {
         this.selections = selections;
+    }
+
+    public int getGuestCount() {
+        return guestCount;
+    }
+
+    public void setGuestCount(int guestCount) {
+        this.guestCount = guestCount;
     }
 }

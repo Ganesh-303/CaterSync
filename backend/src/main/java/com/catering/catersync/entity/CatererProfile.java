@@ -16,6 +16,8 @@ public class CatererProfile {
     private boolean flashEnabled;
     private boolean customEnabled;
     private boolean available = true;
+    private int maxCapacity = 1000;
+    private int maxBookings = 3;
 
     private double avgRating = 0.0;
     private long ratingCount = 0;
@@ -98,5 +100,21 @@ public class CatererProfile {
 
     public void setCustomEnabled(boolean customEnabled) {
         this.customEnabled = customEnabled;
+    }
+
+    public int getMaxCapacity() {
+        return maxCapacity;
+    }
+
+    public void setMaxCapacity(int maxCapacity) {
+        this.maxCapacity = maxCapacity;
+    }
+
+    public int getMaxBookings() {
+        return maxBookings;
+    }
+
+    public void setMaxBookings(int maxBookings) {
+        this.maxBookings = maxBookings;
     }
 }

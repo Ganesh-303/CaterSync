@@ -10,6 +10,7 @@ public class BookingResponse {
     private String status;
     private double totalPrice;
     private List<BookingItemResponse> items;
+    private int guestCount;
 
     public Long getId() {
         return id;
@@ -57,5 +58,13 @@ public class BookingResponse {
 
     public void setItems(List<BookingItemResponse> items) {
         this.items = items;
+    }
+
+    public int getGuestCount() {
+        return guestCount;
+    }
+
+    public void setGuestCount(int guestCount) {
+        this.guestCount = guestCount;
     }
 }

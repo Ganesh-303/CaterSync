@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3010b3c7-d443-4465-8c04-7898311ad0e2" name="Changes" comment="updated services">
+      <change beforePath="$PROJECT_DIR$/frontend/booking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/caterers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/booking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/caterer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/inventory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/rating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/register.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ganesh-303&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ganesh-303/CaterSync.git&quot;,
+    &quot;accountId&quot;: &quot;969188c0-af87-48b8-a1cc-601b70bd45bd&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3C7xobF0UgH5Gdzfrxk0d1DFivI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaterSyncApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ganes\Downloads\catering-organizer\CaterSync\backend" />
+      <recent name="C:\Users\Ganes\Downloads\catering-organizer\CaterSync\src\main\java\com\catering\catersync\entity" />
+      <recent name="C:\Users\Ganes\Downloads\catering-organizer\CaterSync\src\main\java\com\catering\catersync\controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CaterSyncApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.catering.catersync.CaterSyncApplication" />
+      <module name="CaterSync" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.catering.catersync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CaterSyncApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3010b3c7-d443-4465-8c04-7898311ad0e2" name="Changes" comment="" />
+      <created>1775750591235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775750591235</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added menu">
+      <option name="closed" value="true" />
+      <created>1776095899141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776095899141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added menu">
+      <option name="closed" value="true" />
+      <created>1776097359022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776097359022</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated services">
+      <option name="closed" value="true" />
+      <created>1776409314228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776409314228</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated services">
+      <option name="closed" value="true" />
+      <created>1776700367827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776700367827</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated services">
+      <option name="closed" value="true" />
+      <created>1777306067444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777306067444</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated services">
+      <option name="closed" value="true" />
+      <created>1777310462827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777310462827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added menu" />
+    <MESSAGE value="updated services" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated services" />
+  </component>
+</project>
